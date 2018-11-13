@@ -54,7 +54,6 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 						<div class="mdui-typo">
 							<h3>表情包动图生成器 <small><a href="https://github.com/TheZihanGu/php-biaoqingbao-gif" target="_blank">  项目Github</a></small></h3>
 							<h4>更多动图尽情期待！</h4>
-                            <h3>修改自 php-sorry-gif 开源项目。 <small><a href="https://github.com/PrintNow/php-sorry-gif" target="_blank">  php-sorry-gif项目Github</a></small></h3>
 						</div>
 					</div>
 				</div>

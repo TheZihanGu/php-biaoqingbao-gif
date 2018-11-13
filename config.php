@@ -3,7 +3,7 @@
   * 是否将图片到上传到 sogouimg 并生成外链，是填 true，否则填 false（默认为true，可根据自己的需求进行修改）
   * 如果你服务器的带宽小建议开启！
 */
-define('UPLOAD_TO_SOGOU_IMG',true);
+define('UPLOAD_TO_SOGOU_IMG',false);
 
 /**
   * 是否默认生成小图，是填 true，否则填 false（默认为true，可根据自己的需求进行修改）

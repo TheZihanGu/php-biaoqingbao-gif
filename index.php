@@ -10,14 +10,14 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="renderer" content="webkit">
 		<meta name="theme-color" content="#607d8b" />
-		<title>表情包动图生成器</title>
+		<title>PHP-BIAOQINGBAO-GIF</title>
 		<link href="https://cdn.bootcss.com/mdui/0.4.0/css/mdui.min.css" rel="stylesheet">
 	</head>
 	<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-pink">
 		<header class="mdui-appbar mdui-appbar-fixed">
 			<div class="mdui-toolbar mdui-color-theme">
 				<span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
-				<a href="https://a8o.org/" target="_blank" class="mdui-typo-headline mdui-hidden-xs">表情包动图生成器</a>
+				<a href="./" target="_blank" class="mdui-typo-headline mdui-hidden-xs">PHP-BIAOQINGBAO-GIF</a>
 			</div>
 		</header>
 
@@ -52,7 +52,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 					<div class="mdui-panel-item-body">
 						<p></p>
 						<div class="mdui-typo">
-							<h3>表情包动图生成器 <small><a href="https://github.com/TheZihanGu/php-biaoqingbao-gif" target="_blank">  项目Github</a></small></h3>
+							<h3>PHP-BIAOQINGBAO-GIF <small><a href="https://github.com/TheZihanGu/php-biaoqingbao-gif" target="_blank">  Github</a></small></h3>
 							<h4>更多动图尽情期待！</h4>
 						</div>
 					</div>

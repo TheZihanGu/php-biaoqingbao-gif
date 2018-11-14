@@ -1,3 +1,6 @@
+// 原项目链接：https://github.com/PrintNow/php-sorry-gif
+// 项目重写 By TheZihanGu
+// PHP-BIAOQINGBAO-GIF项目链接：https://github.com/TheZihanGu/php-biaoqingbao-gif
 var $$ = mdui.JQ;
 
 function creat_gif() {

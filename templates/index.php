@@ -1,8 +1,9 @@
 <?php
 /**
   * 索引文件
-  * @author: NowTime <wenzhouchan@gmail.com>
-  * @link: https://github.com/PrintNow/php-sorry-gif
+  * 原项目链接：https://github.com/PrintNow/php-sorry-gif
+  * 项目重写 By TheZihanGu
+  * PHP-BIAOQINGBAO-GIF项目链接：https://github.com/TheZihanGu/php-biaoqingbao-gif
   * 注释可能不规范，欢迎指正
   * @param string   name：中文名，用于网站展示
   * @param boolean  small：是否有小视频文件（文件名命名为：template-small.mp4，需要自行转换视频大小），有则 true，无则 false
@@ -77,12 +78,12 @@ return [
   ],
 
   [
-  'name' => '曾小贤答题',
+  'name' => '曾小贤',
   'small' => false,
   'input_num' => 4,
   'preview_image' => 'https://i.loli.net/2018/04/10/5acc4ddf5f133.png',
   'template_name' => 'zengxiaoxiandati',
-  'input_placeholder' => ['平时你打电子游戏吗','偶尔','星际还是魔兽','连连看']
+  'input_placeholder' => ['平时你打电子游戏吗','偶尔','星际还是魔兽','连连看！']
   ],
 
   [
@@ -95,12 +96,12 @@ return [
   ],
 
   [
-    'name' => '诸葛孔明Beta',
+    'name' => '诸葛孔明',
     'small' => true,
     'input_num' => 2,
     'preview_image' => 'https://i.loli.net/2018/04/04/5ac4b3df1baf4.png',
     'template_name' => 'kongming',
-    'input_placeholder' => ['没想到','竟说出如此粗鄙之语']
+    'input_placeholder' => ['没想到','竟有如此厚颜无耻之人']
   ],
 
   [

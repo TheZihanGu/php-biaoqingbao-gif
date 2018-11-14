@@ -1,7 +1,8 @@
 <?php
 /**
-  * @author   NowTime <wenzhouchan@gmail.com>
-  * @link     https://github.com/PrintNow/php-sorry-gif
+  * 原项目链接：https://github.com/PrintNow/php-sorry-gif
+  * 项目重写 By TheZihanGu
+  * PHP-BIAOQINGBAO-GIF项目链接：https://github.com/TheZihanGu/php-biaoqingbao-gif
   *
   * @param  string  $filepath 需要上传文件的绝对路径
 */

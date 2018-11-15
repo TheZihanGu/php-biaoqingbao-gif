@@ -65,7 +65,7 @@ return [
     'input_num' => 6,
     'preview_image' => 'https://img04.sogoucdn.com/app/a/100520146/66716F615DB6B807642EC516F30F0AD4',
     'template_name' => 'shankupaolu',
-    'input_placeholder' => ['删库了肯定要跑路啊','老板拿着刀砍我','数据库是怎么删的？','那天我问群里人怎么用','他们说输入 sudo rm -rf /*','cnm(吃柠檬)的数据库就没了']
+    'input_placeholder' => ['删库了肯定要跑路啊','老板拿着刀砍我','数据库是怎么删的？','那天我问群里人怎么用','他们说输入 sudo rm -rf /*','真是日了狗了']
   ],
 
   [

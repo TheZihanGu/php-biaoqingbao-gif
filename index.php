@@ -13,7 +13,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 		<title>PHP-BIAOQINGBAO-GIF</title>
 		<link href="https://cdn.bootcss.com/mdui/0.4.0/css/mdui.min.css" rel="stylesheet">
 	</head>
-	<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-pink">
+	<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink">
 		<header class="mdui-appbar mdui-appbar-fixed">
 			<div class="mdui-toolbar mdui-color-theme">
 				<span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
@@ -24,7 +24,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 		<div class="mdui-drawer" id="main-drawer">
 			<div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
 				<li class="mdui-list-item mdui-ripple">
-					<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">home</i>
+					<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-light-blue">home</i>
 					<div class="mdui-list-item-content">
 						<a href="./" class="mdui-ripple">首页</a>
 					</div>
@@ -33,8 +33,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 			</div>
 		</div>
 
-
-		<div class="mdui-tab mdui-color-blue-grey" mdui-tab>
+		<div class="mdui-tab mdui-color-indigo" mdui-tab>
 			<a href="#home" class="mdui-ripple get_value_class" onclick="window.location.hash='home'">
 				<label>首页</label>
 			</a>

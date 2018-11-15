@@ -5,6 +5,7 @@
   * 项目重写 By TheZihanGu
   * PHP-BIAOQINGBAO-GIF项目链接：https://github.com/TheZihanGu/php-biaoqingbao-gif
   * 注释可能不规范，欢迎指正
+  * 欢迎各位大佬为此项目增加新的表情包
   * @param string   name：中文名，用于网站展示
   * @param boolean  small：是否有小视频文件（文件名命名为：template-small.mp4，需要自行转换视频大小），有则 true，无则 false
   * @param int      input_num：对话数，如 “为所欲为” 有 9 句话，就填 9;如 王境泽 有 4 句话，就填 4
@@ -47,7 +48,7 @@ return [
     'input_num' => 2,
     'preview_image' => 'https://i.loli.net/2018/04/04/5ac4b3df0f43e.png',
     'template_name' => 'marmot',
-    'input_placeholder' => ['金坷垃好处都有啥','谁说对了就给他']
+    'input_placeholder' => ['啊啊啊啊啊啊啊！','啊啊啊啊啊啊啊！']
   ],
 
   [
@@ -60,12 +61,12 @@ return [
   ],
 
   [
-    'name' => '窃格瓦拉-删库跑路',
+    'name' => '删库跑路',
     'small' => true,
     'input_num' => 6,
     'preview_image' => 'https://img04.sogoucdn.com/app/a/100520146/66716F615DB6B807642EC516F30F0AD4',
     'template_name' => 'shankupaolu',
-    'input_placeholder' => ['删库了肯定要跑路啊','老板拿着刀砍我','数据库是怎么删的？','那天我问群里人怎么用','他们说输入 sudo rm -rf /*','真是日了狗了']
+    'input_placeholder' => ['删库了肯定要跑路啊','老板拿着刀砍我','数据库是怎么删的？','那天我问群里人命令行怎么用','他们说输入 sudo rm -rf /','真是日了狗了']
   ],
 
   [

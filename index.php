@@ -9,7 +9,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="renderer" content="webkit">
-		<meta name="theme-color" content="#607d8b" />
+		<meta name="theme-color" content="#3F51B5" />
 		<title>PHP-BIAOQINGBAO-GIF</title>
 		<link href="https://cdn.bootcss.com/mdui/0.4.0/css/mdui.min.css" rel="stylesheet">
 	</head>

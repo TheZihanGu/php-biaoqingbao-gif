@@ -28,10 +28,21 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 					<div class="mdui-list-item-content">
 						<a href="./" class="mdui-ripple">首页</a>
 					</div>
+			<div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
+				<li class="mdui-list-item mdui-ripple">
+					<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-light-blue">link</i>
+					<div class="mdui-list-item-content">
+						<a href="https://github.com/TheZihanGu/php-biaoqingbao-gif" class="mdui-ripple">项目GitHub</a>
 					</div>
+			<div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
+				<li class="mdui-list-item mdui-ripple">
+					<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-light-blue">attach_money</i>
+					<div class="mdui-list-item-content">
+						<a href="http://zihangu.com/donation/" class="mdui-ripple">赞赏作者</a>
+					</div>
+					</div>			
 				</li>
 			</div>
-		</div>
 
 		<div class="mdui-tab mdui-color-indigo" mdui-tab>
 			<a href="#home" class="mdui-ripple get_value_class" onclick="window.location.hash='home'">
@@ -51,7 +62,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 					<div class="mdui-panel-item-body">
 						<p></p>
 						<div class="mdui-typo">
-							<h3>PHP-BIAOQINGBAO-GIF <small><a href="https://github.com/TheZihanGu/php-biaoqingbao-gif" target="_blank">  Github</a></small></h3>
+							<h3>PHP-BIAOQINGBAO-GIF <small><a href="https://github.com/TheZihanGu/php-biaoqingbao-gif" target="_blank">  项目Github</a></small></h3>
 							<h4>更多动图尽情期待！</h4>
 						</div>
 					</div>

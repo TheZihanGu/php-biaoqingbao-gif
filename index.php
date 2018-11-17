@@ -21,6 +21,8 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 			</div>
 		</header>
 
+		<button class="mdui-fab mdui-fab-fixed" id="like"><i class="mdui-icon material-icons">thumb_up</i></button>	
+		
 		<div class="mdui-drawer" id="main-drawer">
 			<div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
 				<li class="mdui-list-item mdui-ripple">
@@ -64,6 +66,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 						<div class="mdui-typo">
 							<h3>PHP-BIAOQINGBAO-GIF <small><a href="https://github.com/TheZihanGu/php-biaoqingbao-gif" target="_blank">  项目Github</a></small></h3>
 							<h4>更多动图尽情期待！</h4>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -125,4 +128,5 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 	</body>
 	<script src="https://cdn.bootcss.com/mdui/0.4.0/js/mdui.min.js"></script>
   <script src="./script.js?version=10050"></script>
+  <script src="./like.js"></script>
 </html>

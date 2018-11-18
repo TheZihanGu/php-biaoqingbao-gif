@@ -3,6 +3,7 @@
 本项目基于php-sorry-gif进行二次开发。  
 原项目链接：https://github.com/PrintNow/php-sorry-gif  
 php-biaoqingbao-gif为独立版本。  
+注意！在不可访问外网的环境下搭建会出现无法上传到搜狗CDN的情况，请在config.php关闭上传选项，也会出现预览图无法出现的问题（能访问OSS就可以显示）   
 使用方式：前往release下载ZIP，并自行配置或下载Install.sh自动安装（需要保证服务端完全纯净，没有安装（过）Apache、Nginx等Web Server.  
 Install.sh 将会进行：安装Apache2、PHP7.2，下载ZIP，解压并安装所需字体。  
 作者博客: https://zihangu.com  

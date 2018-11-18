@@ -25,6 +25,15 @@ return [
   ],
 
   [
+    'name' => '血小板',
+    'small' => false,
+    'input_num' => 2,
+    'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/xuexiaoban.png',
+    'template_name' => 'xuexiaoban',
+    'input_placeholder' => ['抱歉 那个那个','因为出了些状况 施工进度推迟了']
+  ],
+
+  [
     'name' => '王境泽',
     'small' => true,
     'input_num' => 4,

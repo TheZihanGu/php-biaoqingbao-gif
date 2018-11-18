@@ -81,7 +81,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 						<div class="mdui-col-md-4">
 							<?php if ($value['preview_image'] == 'false') : ?>
 								<div class="mdui-card">
-								  <div class="mdui-card-content"><h3>预览图跑路了</h4>预览图?不存在的。</div>
+								  <div class="mdui-card-content"><h3>???</h4>预览图走丢了，帮帮我们！</div>
 								</div>
 							<?php else : ?>
 								<div class="mdui-card">

@@ -64,7 +64,7 @@ return [
     'name' => '窃格瓦拉',
     'small' => true,
     'input_num' => 6,
-    'preview_image' => 'https://i.loli.net/2018/04/04/5ac4b3236ee6b.jpg',
+    'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/dagong.png',
     'template_name' => 'dagong',
     'input_placeholder' => ['没有钱啊 肯定要做的啊','不做的话没有钱用','那你不会去打工啊','有手有脚的','打工是不可能打工的','这辈子是不可能打工的']
   ],
@@ -73,7 +73,7 @@ return [
     'name' => '删库跑路',
     'small' => true,
     'input_num' => 6,
-    'preview_image' => 'https://img04.sogoucdn.com/app/a/100520146/66716F615DB6B807642EC516F30F0AD4',
+    'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/dagong.png',
     'template_name' => 'shankupaolu',
     'input_placeholder' => ['删库了肯定要跑路啊','老板拿着刀砍我','数据库是怎么删的？','那天我问群里人命令行怎么用','他们说输入 sudo rm -rf /','真是日了狗了']
   ],
@@ -82,7 +82,7 @@ return [
   'name' => '大师兄',
   'small' => true,
   'input_num' => 8,
-  'preview_image' => 'https://i.loli.net/2018/04/04/5ac4b32378cf1.jpg',
+  'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/dashixiong.png',
   'template_name' => 'dashixiong',
   'input_placeholder' => ['问得好，如果各位有兴趣的话','可以加入我们空手道部门','不过要经过选拔','因为我只会训练精英','绝对不会接收垃圾','看我干嘛？你把我当垃圾？','不是...不要误会，我不是针对你','我是说在座的各位都是垃圾']
   ],
@@ -118,7 +118,7 @@ return [
     'name' => 'POP子和PIP美的日常',
     'small' => false,
     'input_num' => 7,
-    'preview_image' => 'false',
+    'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/popteamepic.png',
     'template_name' => 'popteamepic',
     'input_placeholder' => ['嘿嘿！','丢雷楼谋','大力D','嘿嘿！！','丢埋雷楼豆','再大力D','唔好丢我啊']
   ]

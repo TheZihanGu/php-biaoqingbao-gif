@@ -34,6 +34,15 @@ return [
   ],
 
   [
+    'name' => '烤面筋',
+    'small' => false,
+    'input_num' => 8,
+    'preview_image' => 'false',
+    'template_name' => 'kaomianjin',
+    'input_placeholder' => ['香辣的口味','你吃过没','麻辣的感觉','你尝过没','网络红人的歌声','你听过没','真正的烤面筋','可带劲了']
+  ],
+
+  [
     'name' => '王境泽',
     'small' => true,
     'input_num' => 4,

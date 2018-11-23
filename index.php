@@ -69,8 +69,8 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 							<h4>赞赏与广告：</h4>
 							<div style="text-align: center;">
                               <img width="200" height="200" src="https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/zanshang.jpg" />
-                            <div style="text-align: center;">
-                              <a href="https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=4wz5xqgf"><img width="498" height="60" src="https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/498-60.png" />
+							  <div style="text-align: center;">
+                              <a href="https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=4wz5xqgf"><img src="https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/250x200.png" />
 						    </div>
 						</div>
 						</div>

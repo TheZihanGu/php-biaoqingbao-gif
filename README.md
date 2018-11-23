@@ -26,7 +26,8 @@ apt-get install php7.2-fpm php7.2-mysql php7.2-curl php7.2-json php7.2-mbstring 
 apt-get install unzip -y
 cd /var/www/html
 rm -rf *
-wget https://github.com/TheZihanGu/php-biaoqingbao-gif/releases/download/V1.0/v1.0.zip
+wget https://github.com/TheZihanGu/php-biaoqingbao-gif/releases/download/v2.0/php-biaoqingbao-gif-v2.0.zip
+unzip php-biaoqingbao-gif-v2.0.zip
 chmod -R 777 /var/www/html
 chmod -R 777 /var/www/html/*
 ~~~

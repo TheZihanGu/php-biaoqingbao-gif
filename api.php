@@ -5,7 +5,6 @@ $OS_TYPE=DIRECTORY_SEPARATOR=='\\'?'windows':'linux';
 
 /**
   * 解决 ffmpeg 对 windows 系统的绝对路径“不友好问题”。
-  * 好像解决的方法有点笨...
 */
 if($OS_TYPE == 'windows') {
   define('ROOT','.');

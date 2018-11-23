@@ -46,7 +46,7 @@ return [
     'name' => '王境泽',
     'small' => true,
     'input_num' => 4,
-    'preview_image' => 'https://i.loli.net/2018/04/04/5ac4b32378084.jpg',
+    'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/wangjingze.jpg',
     'template_name' => 'wangjingze',
     'input_placeholder' => ['我王境泽就算是饿死','死外边 从这跳下去','也不会吃你们一点东西','真香']
   ],
@@ -55,7 +55,7 @@ return [
     'name' => '金坷垃',
     'small' => true,
     'input_num' => 6,
-    'preview_image' => 'https://i.loli.net/2018/04/04/5ac4b3df3ce42.png',
+    'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/jinkela.png',
     'template_name' => 'jinkela',
     'input_placeholder' => ['金坷垃好处都有啥','谁说对了就给他','肥料掺了金坷垃','不流失 不蒸发 零浪费','肥料掺了金坷垃','能吸收两米下的氮磷钾']
   ],
@@ -64,7 +64,7 @@ return [
     'name' => '土拔鼠',
     'small' => true,
     'input_num' => 2,
-    'preview_image' => 'https://i.loli.net/2018/04/04/5ac4b3df0f43e.png',
+    'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/tuboshu.png',
     'template_name' => 'marmot',
     'input_placeholder' => ['啊啊啊啊啊啊啊！','啊啊啊啊啊啊啊！']
   ],

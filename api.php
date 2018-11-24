@@ -3,9 +3,6 @@ require_once "./config.php";
 
 $OS_TYPE=DIRECTORY_SEPARATOR=='\\'?'windows':'linux';
 
-/**
-  * 解决 ffmpeg 对 windows 系统的绝对路径“不友好问题”。
-*/
 if($OS_TYPE == 'windows') {
   define('ROOT','.');
 }else{
@@ -31,9 +28,6 @@ if($type && $data && $small){
     $TEMP_VIDEO = $TEMP_ROOT.'template.mp4';
   }
 
-/**
-  * 判断根目录是否存在 cache 目录，不存在则创建
-*/
   if(!file_exists(ROOT.'/cache')){
     if(mkdir(ROOT.'/cache',0777) === false){
       $result['code'] = 500;
@@ -50,8 +44,8 @@ if($type && $data && $small){
     }
 
     $change_ass = str_replace($str_source,$data,$ass_file);
-    $create_temporary_ass = fopen($CACHE_ASS_PATH, "w") or die('{"code":501,"msg":"临时字幕文件创建失败，请网站管理员检查 `cache` 目录是否具有读写权限或用户组设否设置正确！"}');
-    fwrite($create_temporary_ass, $change_ass) or die('{"code":502,"msg":"临时字幕文件已创建，但写入失败，请网站管理员检查 `cache` 目录是否具有读写权限或用户组设否设置正确！"}');
+    $create_temporary_ass = fopen($CACHE_ASS_PATH, "w") or die('{"code":501,"msg":"临时文件创建失败，请检查cache目录权限是否设置正确！"}');
+    fwrite($create_temporary_ass, $change_ass) or die('{"code":502,"msg":"临时文件写入失败，请检查cache目录权限是否设置正确！"}');
     fclose($create_temporary_ass);
 
     $out_put_file=ROOT.'/cache/'.$request_time.'.gif';
@@ -81,11 +75,11 @@ if($type && $data && $small){
   }else{
     $result['code'] = 404;
     $result['type'] = $type;
-    $result['msg'] = '该模板文件不存在！';
+    $result['msg'] = '字幕文件不存在!';
   }
 }else{
   $result['code'] = 400;
-  $result['msg'] = '缺少必要参数，请检查！';
+  $result['msg'] = '缺少必要参数';
 }
 
 echo json_encode($result);

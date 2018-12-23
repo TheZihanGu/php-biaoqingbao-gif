@@ -65,12 +65,14 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 						<p></p>
 						<div class="mdui-typo">
 							<h3>PHP-BIAOQINGBAO-GIF <small><a href="https://github.com/TheZihanGu/php-biaoqingbao-gif" target="_blank">  项目Github</a></small></h3>
-							<h4>更多动图尽情期待！</h4>
+							<h4>更多模板尽情期待！</h4>
 							<h4>赞赏：</h4>
 							<div style="text-align: center;">
                               <img width="200" height="200" src="https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/zanshang.jpg" />
 						    </div>
-						</div>
+							<div style="text-align: center;">
+                              <a href="https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=4wz5xqgf"><img width="150" height="50" src="https://zihangu-blog-cdn.oss-cn-beijing.aliyuncs.com/150-50.png" />
+							</div>
 						</div>
 					</div>
 				</div>
@@ -85,7 +87,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 						<div class="mdui-col-md-4">
 							<?php if ($value['preview_image'] == 'false') : ?>
 								<div class="mdui-card">
-								  <div class="mdui-card-content"><h3>???</h4>预览图走丢了，帮帮我们！</div>
+								  <div class="mdui-card-content"><h3>???</h4>这里似乎缺些东西...</div>
 								</div>
 							<?php else : ?>
 								<div class="mdui-card">

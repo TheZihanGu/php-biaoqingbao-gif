@@ -31,7 +31,7 @@ if($type && $data && $small){
   if(!file_exists(ROOT.'/cache')){
     if(mkdir(ROOT.'/cache',0777) === false){
       $result['code'] = 500;
-      $result['msg'] = '服务端 `cache` 目录不存在，尝试创建 `cache` 目录，但创建失败，请网站管理员在网站根目录手动创建 `cache` 目录';
+      $result['msg'] = '服务器中不存在 `cache` 目录，PHP-BIAOQINGBAO-GIF尝试创建目录但是出现错误，请手动在根目录下创建 `cache` 目录。';
       exit(json_encode($result));
     }
   }
@@ -44,24 +44,24 @@ if($type && $data && $small){
     }
 
     $change_ass = str_replace($str_source,$data,$ass_file);
-    $create_temporary_ass = fopen($CACHE_ASS_PATH, "w") or die('{"code":501,"msg":"临时文件创建失败，请检查cache目录权限是否设置正确！"}');
-    fwrite($create_temporary_ass, $change_ass) or die('{"code":502,"msg":"临时文件写入失败，请检查cache目录权限是否设置正确！"}');
+    $create_temporary_ass = fopen($CACHE_ASS_PATH, "w") or die('{"code":501,"msg":"临时文件创建失败，请检查chache目录权限。"}');
+    fwrite($create_temporary_ass, $change_ass) or die('{"code":502,"msg":"临时文件写入失败，请检查chache目录权限。"}');
     fclose($create_temporary_ass);
 
     $out_put_file=ROOT.'/cache/'.$request_time.'.gif';
     $command = 'ffmpeg -y -i '.$TEMP_VIDEO.' -vf "ass='.$CACHE_ASS_PATH.'" '.$out_put_file;
     system($command);
-    unlink($CACHE_ASS_PATH);//删除临时生成的字幕文件
+    unlink($CACHE_ASS_PATH); //删除临时文件
 
     $result['code'] = 200;
     $result['type'] = $type;
-    $result['msg'] = '应该生成成功...';
+    $result['msg'] = '似乎生成成功了。';
 
     if(UPLOAD_TO_SOGOU_IMG === true && filesize($out_put_file)<10000000){
       require_once ROOT.'/usr/lib/functions.php';
       $r = upload_to_sogou($out_put_file);
       if($r === false) {
-        //如果上传失败，则返回本地路径
+        // 如果搜狗IMG上传失败，则使用本地链接。
         $result['path'] = './cache/'.$request_time.'.gif';
         $result['upload_status'] = 'fail';
       }else{
@@ -75,11 +75,11 @@ if($type && $data && $small){
   }else{
     $result['code'] = 404;
     $result['type'] = $type;
-    $result['msg'] = '字幕文件不存在!';
+    $result['msg'] = '缺少字幕文件，请补全相应模板的字幕文件。';
   }
 }else{
   $result['code'] = 400;
-  $result['msg'] = '缺少必要参数';
+  $result['msg'] = '字幕文件缺少必要参数。';
 }
 
 echo json_encode($result);

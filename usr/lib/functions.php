@@ -1,8 +1,7 @@
 <?php
 /**
-  * 原项目链接：https://github.com/PrintNow/php-sorry-gif
-  * 项目重写 By TheZihanGu
-  * PHP-BIAOQINGBAO-GIF项目链接：https://github.com/TheZihanGu/php-biaoqingbao-gif
+	* 搜狗IMG图片上传
+  * 项目链接：https://github.com/TheZihanGu/php-biaoqingbao-gif
   *
   * @param  string  $filepath 需要上传文件的绝对路径
 */
@@ -40,5 +39,4 @@ function upload_to_sogou($filepath) {
   }else{
     return false;
   }
-
 }

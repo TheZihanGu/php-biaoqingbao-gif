@@ -4,6 +4,7 @@
   * 如果你服务器的带宽小建议开启！
   * 如果你搭建的环境无法连接外网（简单来说，就是不能浏览网页），请将UPLOAD TO SOGOU IMG选项设为 false ，否则程序将自动生成本地链接。
   * 此选项默认为开启状态。
+  * 截至目前 sogoimg 暂时无法使用，请不要开启此功能。
 */
 define('UPLOAD_TO_SOGOU_IMG',false);
 

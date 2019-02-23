@@ -68,6 +68,15 @@ return [
   ],
 
   [
+    'name' => '倒闭了',
+    'small' => false,
+    'input_num' => 1,
+    'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/daobile.gif',
+    'template_name' => 'daobile',
+    'input_placeholder' => ['索尼倒闭了']
+  ],
+
+  [
     'name' => '土拔鼠',
     'small' => true,
     'input_num' => 2,

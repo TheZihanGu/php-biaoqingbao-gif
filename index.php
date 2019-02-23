@@ -65,6 +65,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 						<p></p>
 						<div class="mdui-typo">
 							<h3>PHP-BIAOQINGBAO-GIF <small><a href="https://github.com/TheZihanGu/php-biaoqingbao-gif" target="_blank">  项目Github</a></small></h3>
+							<h3>查看当前版本： <small><a href="./release/index.html" target="_blank">  Go！</a></small></h3>
 							<h4>赞赏：</h4>
 							<div style="text-align: center;">
                               <img width="200" height="200" src="https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/zanshang.jpg" />

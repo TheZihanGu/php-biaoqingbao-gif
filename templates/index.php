@@ -16,6 +16,14 @@
 
 return [
   [
+    'name' => '第三区交通委',
+    'small' => false,
+    'input_num' => 3,
+    'preview_image' => 'https://php-biaoqingbao-gif.oss-cn-hangzhou.aliyuncs.com/bjds.gif',
+    'template_name' => 'bjds',
+    'input_placeholder' => ['北京第三区交通委提醒您','道路千万条 安全第一条','行车不规范 亲人两行泪']
+  ],
+  [
     'name' => '为所欲为',
     'small' => true,
     'input_num' => 9,
@@ -23,7 +31,6 @@ return [
     'template_name' => 'weisuoyuwei',
     'input_placeholder' => ['好啊','就算你是一流工程师','就算你出报告再完美','我叫你改报告你就要改','毕竟我是客户','客户了不起啊','Sorry，客户真的了不起','以后叫他天天改报告','天天改 天天改']
   ],
-
   [
     'name' => '血小板',
     'small' => false,

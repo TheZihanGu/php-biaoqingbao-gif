@@ -11,7 +11,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 		<meta name="renderer" content="webkit">
 		<meta name="theme-color" content="#3F51B5" />
 		<title>PHP-BIAOQINGBAO-GIF</title>
-		<link href="//mdui-aliyun.cdn.w3cbus.com/source/dist/css/mdui.min.css" rel="stylesheet">
+		<link href="https://cdn.bootcss.com/mdui/0.4.2/css/mdui.min.css" rel="stylesheet">
 	</head>
 	<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink">
 		<header class="mdui-appbar mdui-appbar-fixed">
@@ -129,7 +129,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 		<?php endforeach; ?>
 
 	</body>
-	<script src="//mdui-aliyun.cdn.w3cbus.com/source/dist/js/mdui.min.js"></script>
+	<script src="https://cdn.bootcss.com/mdui/0.4.2/js/mdui.min.js"></script>
 	<script src="./script.js?version=10050"></script>
 	<script src="./like.js"></script>
 </html>

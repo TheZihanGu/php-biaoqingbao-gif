@@ -1,5 +1,5 @@
 # PHP-BIAOQINGBAO-GIF  
-示例站：https://8ot.net/   
+示例站：https://a8o.me/   
 本项目基于php-sorry-gif进行重写。   
 原项目链接：https://github.com/PrintNow/php-sorry-gif    
 制作核心：ffmpeg（ https://www.ffmpeg.org/ ）   
